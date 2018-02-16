@@ -10,7 +10,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.LinearLayout
-import com.example.truptimangrule.weatherappusingkotlin.R.string.section_format
+import com.example.truptimangrule.Day2ChallengeWeatherappusingkotlin.R
 import com.example.truptimangrule.weatherappusingkotlin.network.retrofit.ApiEndpointInterface
 import com.example.truptimangrule.weatherappusingkotlin.network.retrofit.RetrofitManager
 import com.example.truptimangrule.weatherappusingkotlin.network.retrofit.response.Data

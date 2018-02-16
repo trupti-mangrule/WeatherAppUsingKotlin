@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import com.example.truptimangrule.Day2ChallengeWeatherappusingkotlin.R
 import com.example.truptimangrule.weatherappusingkotlin.network.retrofit.response.Data
 import java.text.SimpleDateFormat
 import java.util.*

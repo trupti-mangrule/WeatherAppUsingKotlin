@@ -5,7 +5,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.example.truptimangrule.weatherappusingkotlin"
+        applicationId "com.example.truptimangrule.day2challengeweatherappusingkotlin"
         minSdkVersion 18
         targetSdkVersion 26
         versionCode 1

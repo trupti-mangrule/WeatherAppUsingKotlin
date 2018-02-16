@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import com.example.truptimangrule.Day2ChallengeWeatherappusingkotlin.R
 import com.example.truptimangrule.weatherappusingkotlin.network.retrofit.response.Data
 import java.text.SimpleDateFormat
 import java.util.*
@@ -27,11 +28,6 @@ class HorizontalAdapter(val hourlyList: ArrayList<Data>?) : RecyclerView.Adapter
 
         holder.tv_temp.setText(hourlyList?.get(position)?.temperature?.substring(0,2)+"\u00B0")
         println("temp image should be "+hourlyList?.get(position)?.icon)
-
-//clear-day
-//clear-night
-//partly-cloudy-day
-//partly-cloudy-night
 
         if(hourlyList?.get(position)?.icon=="clear-day"){
             holder.iv_temp_image.setBackgroundResource(R.drawable.clear_day)

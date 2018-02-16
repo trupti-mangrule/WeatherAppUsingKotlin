@@ -1,4 +1,4 @@
-package com.example.truptimangrule.weatherappusingkotlin
+package com.example.truptimangrule.Day2ChallengeWeatherappusingkotlin
 
 
 import android.support.v7.app.AppCompatActivity
@@ -16,7 +16,7 @@ import android.widget.ImageView
 import android.widget.LinearLayout.HORIZONTAL
 import android.widget.LinearLayout.VERTICAL
 import android.widget.TextView
-import com.example.truptimangrule.weatherappusingkotlin.R.string.section_format
+import com.example.truptimangrule.weatherappusingkotlin.SectionsPagerAdapter
 import com.example.truptimangrule.weatherappusingkotlin.network.retrofit.ApiEndpointInterface
 import com.example.truptimangrule.weatherappusingkotlin.network.retrofit.RetrofitManager
 import com.example.truptimangrule.weatherappusingkotlin.network.retrofit.response.Data
